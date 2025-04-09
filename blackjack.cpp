@@ -43,7 +43,7 @@ int handValue(const vector<string>& hand) {
     }
     return total;
 }
-//checks to see if there are no aces. If so, just calculate card values
+//checks to see if there are no aces. If so, just calculate card values 
 bool isHard(const vector<string>& hand) {
     int total = 0, aces = 0;
     for (int i = 0; i < hand.size(); ++i) {
