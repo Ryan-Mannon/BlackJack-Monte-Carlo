@@ -176,7 +176,7 @@ int main() {
     evaluatePolicy("Policy 2: Stick on Hard 17+", policy2);
     evaluatePolicy("Policy 3: Always Stick", policy3);
     evaluatePolicy("Policy 4: Hit under 15", policy4);
-    evaluatePolicy("Policy 5: Hit under 19 (aggressive)", policy5);
+    evaluatePolicy("Policy 5: Hit under 19 (aggressive)", policy5); //might drop the aggressive part
 
     return 0;
 }
