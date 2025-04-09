@@ -117,7 +117,7 @@ int runPolicy(int policy, int gamesPlayed){
 int main(){
     srand(time(NULL));      //random time seed
 
-    //policy then games played
+    // runPolicy(policy,gamesPlayed);
     cout << runPolicy(1,10);
     
 
